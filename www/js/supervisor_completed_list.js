@@ -16,7 +16,6 @@ return false;
 });
 
 /*$(document).off('click', '#verifiedinv').on('click', '#verifiedinv', function() {
-
 $.mobile.changePage($('#supervisor_verified_list'), { transition: "none", changeHash: true, reverse: false });
 return false;
 });*/
