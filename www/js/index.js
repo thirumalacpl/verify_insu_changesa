@@ -119,14 +119,8 @@ success: function (result) {
         sessionStorage.setItem("criminal_verification_array",JSON.stringify(result[38]));
         sessionStorage.setItem("professional_details_array",JSON.stringify(result[39]));
               
-                 
-                   
-
         sessionStorage.setItem("personal_details_array",JSON.stringify(result[40]));
-                  
- 
 
- 
         sessionStorage.setItem("gcm_reg_id_array",JSON.stringify(result[41]));
 
         sessionStorage.setItem("supervisor_activity_log_array",JSON.stringify(result[42]));
@@ -134,7 +128,7 @@ success: function (result) {
         sessionStorage.setItem("coordinator_final_comment_array",JSON.stringify(result[44]));
 
         /*sessionStorage insurance start*/
-/*
+
         sessionStorage.setItem("claimant_details_array",JSON.stringify(result[45]));
         sessionStorage.setItem("details_injured_array",JSON.stringify(result[46]));
         sessionStorage.setItem("details_deceased_array",JSON.stringify(result[47]));
@@ -148,7 +142,8 @@ success: function (result) {
         sessionStorage.setItem("vehicle_details_array",JSON.stringify(result[52]));
          sessionStorage.setItem("insured_per_details_array",JSON.stringify(result[53]));
           sessionStorage.setItem("verification_master_arra",JSON.stringify(result[54]));
-           sessionStorage.setItem("policy_details_array",JSON.stringify(result[55]));*/
+           sessionStorage.setItem("policy_details_array",JSON.stringify(result[55]));
+            sessionStorage.setItem("tvo_extra_comment_array",JSON.stringify(result[56]));
         
         /*sessionStorage insurance end*/
 

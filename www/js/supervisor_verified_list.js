@@ -2165,6 +2165,9 @@ if(qualification_id == '99' ){
                    if(tvo_extra_commenta !== undefined){
 sessionStorage.setItem("tvo_extra_commenta",JSON.stringify(tvo_extra_commenta));
            }
+           if(verification_maste !== undefined){
+sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
+           }
 //alert('currentob driver d succes');
 sessionStorage.setItem("driver_details_d",JSON.stringify(driver_details_d));
 sessionStorage.setItem("currentobj_veri",JSON.stringify(superr_objj));

@@ -522,7 +522,7 @@ function callnextpvcom(index){
 
 alert(qualification_id+'qualification_id');
 
-alert(verification_user_id+'verification_user_id');
+//alert(verification_user_id+'verification_user_id');
 
 for(a=0;a<personal_details_array.length;a++){
 personal_det = personal_details_array[a];
@@ -2055,7 +2055,7 @@ if(qualification_id == '97' ){
 sessionStorage.setItem("tvo_extra_commenta",JSON.stringify(tvo_extra_commenta));
            }
                     if(coordinator_final_commanda !== undefined){
-alert("coordinator_final_commanda sessionStorage");
+//alert("coordinator_final_commanda sessionStorage");
 sessionStorage.setItem("coordinator_final_commanda",JSON.stringify(coordinator_final_commanda));
 }
 sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
@@ -2171,6 +2171,9 @@ sessionStorage.setItem("tvo_extra_commenta",JSON.stringify(tvo_extra_commenta));
 
 sessionStorage.setItem("coordinator_final_commanda",JSON.stringify(coordinator_final_commanda));
 }
+           if(verification_maste !== undefined){
+sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
+           }  
 //alert('currentob driver d succes');
 sessionStorage.setItem("driver_details_d",JSON.stringify(driver_details_d));
 sessionStorage.setItem("currentobj_veri",JSON.stringify(superr_objj));

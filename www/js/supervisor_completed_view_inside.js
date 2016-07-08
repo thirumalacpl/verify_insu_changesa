@@ -289,10 +289,10 @@ if(fin_op !== null){
 $('.final_comment_tec_comp').text(tvo_extra_commenta.comments);
 }
 
-alert(qualification_id+'qualification_id');
+//alert(qualification_id+'qualification_id');
 
 if(qualification_id == '97'){
-  alert('97 final_comment');
+  //alert('97 final_comment');
 $('#fir_finalcommand_comp').show();
 $('#driver_finalcommand_comp').hide();
 $('#claimant_finalcommand_comp').hide();
@@ -300,7 +300,7 @@ $('#claimant_finalcommand_comp').hide();
    $('#owner_finalcommand_comp').hide();
 }
 if(qualification_id == '99'){
-  alert('99 final_comment');
+  //alert('99 final_comment');
 $('#driver_finalcommand_comp').show();
 $('#fir_finalcommand_comp').hide();
 $('#claimant_finalcommand_comp').hide();
@@ -308,7 +308,7 @@ $('#claimant_finalcommand_comp').hide();
    $('#owner_finalcommand_comp').hide();
 }
 if(qualification_id == '102'){
-  alert('102 final_comment');
+  //alert('102 final_comment');
 $('#claimant_finalcommand_comp').show();
 $('#fir_finalcommand_comp').hide();
 $('#driver_finalcommand_comp').hide();
@@ -316,7 +316,7 @@ $('#driver_finalcommand_comp').hide();
    $('#owner_finalcommand_comp').hide();
 }
 if(qualification_id == '100'){
-  alert('100 final_comment');
+ // alert('100 final_comment');
   $('#owner_finalcommand_comp').show();
 $('#claimant_finalcommand_comp').hide();
 $('#fir_finalcommand_comp').hide();
@@ -324,7 +324,7 @@ $('#driver_finalcommand_comp').hide();
  $('#accid_finalcommand_comp').hide();
 }
 if(qualification_id == '95'){
-  alert('95 final_comment');
+  //alert('95 final_comment');
   $('#accid_finalcommand_comp').show();
   $('#owner_finalcommand_comp').hide();
 $('#claimant_finalcommand_comp').hide();
@@ -453,7 +453,7 @@ var oneemp=employimg_obj.document;
 //insurance start start
 /*101 insured details start*/
 if(qualification_id == '101' ){
-  alert(qualification_id+'101');
+ // alert(qualification_id+'101');
       if(verification_maste !== null){
 if(peruserin == userobjin ){
   $('.foicom').show();
@@ -528,7 +528,7 @@ var oneemp=employimg_obj.document;
 /*101 insured details end */
 //99 start
 if(qualification_id == '99' ){
-  alert(qualification_id+'99');
+ // alert(qualification_id+'99');
 
 
       if(verification_maste !== null){
@@ -598,7 +598,7 @@ var oneemp=employimg_obj.document;
 //99 end
 //100 start
 if(qualification_id == '100' ){
-  alert(qualification_id+'100');
+  //alert(qualification_id+'100');
 
   if(verification_maste !== null){
 if(peruserin == userobjin ){
@@ -667,7 +667,7 @@ var oneemp=employimg_obj.document;
 //100 end
 //97 fir start
 if(qualification_id == '97' ){
-  alert(qualification_id+'97');
+  //alert(qualification_id+'97');
       if(verification_maste !== null){
 if(peruserin == userobjin ){
   $('.foicom').show();
@@ -736,7 +736,7 @@ var oneemp=employimg_obj.document;
 /*106 policy details start*/
 
 if(qualification_id == '106' ){
-  alert(qualification_id+'106');
+  //alert(qualification_id+'106');
       if(verification_maste !== null){
 if(peruserin == userobjin ){
   $('.foicom').show();
@@ -804,7 +804,7 @@ var oneemp=employimg_obj.document;
 //106 end
 //95 accident start
 if(qualification_id == '95' ){
-  alert(qualification_id+'95');
+  //alert(qualification_id+'95');
 
         if(verification_maste !== null){
 if(peruserin == userobjin ){
@@ -885,7 +885,7 @@ var oneemp=employimg_obj.document;
 //95 accident end
 //102 start
 if(qualification_id == '102' ){
-  alert(qualification_id+'102');
+  //alert(qualification_id+'102');
 
     if(verification_maste !== null){
 if(peruserin == userobjin ){

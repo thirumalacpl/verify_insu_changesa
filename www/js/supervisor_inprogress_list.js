@@ -1238,7 +1238,7 @@ gj =super_inpro_obj.verification_user_id;
 //alert(hj+'hj'+gj+'gg'+huemploy+'qualification_id'+qualification_id);
 if( hj == gj && huemploy == qualification_id){
   accident_details_a = accident_details_array[a];
-//alert('accident');
+alert('accident');
 }
 }
 
@@ -1255,7 +1255,7 @@ gj =super_inpro_obj.verification_user_id;
 //alert(hj+'hj'+gj+'gg'+huemploy+'qualification_id'+qualification_id);
 if( hj == gj && huemploy == qualification_id){
   vehicle_details_a = vehicle_details_array[a];
-//alert('vehicle');
+alert('vehicle');
 }
 }
 
@@ -2261,6 +2261,9 @@ return false;
 
 if(qualification_id == '99' ){
       if(driver_details_d !== undefined){
+           if(verification_maste !== undefined){
+sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
+           }
 //alert('currentob driver d succes');
 sessionStorage.setItem("driver_details_d",JSON.stringify(driver_details_d));
 sessionStorage.setItem("currentobj_inpro",JSON.stringify(super_inpro_obj));
@@ -2295,16 +2298,19 @@ return false;
 }
 
 if(qualification_id == '95' ){
-      if(accident_details_a !== undefined && vehicle_details_a !== undefined){
+      if(accident_details_a !== undefined){
+sessionStorage.setItem("accident_details_a",JSON.stringify(accident_details_a));
+}
+ if(vehicle_details_a !== undefined){
+        sessionStorage.setItem("vehicle_details_a",JSON.stringify(vehicle_details_a));
+      }
 //alert('currentob accident and vehicle_details_a succes');
                 if(verification_maste !== undefined){
 sessionStorage.setItem("verification_maste",JSON.stringify(verification_maste));
-sessionStorage.setItem("vehicle_details_a",JSON.stringify(vehicle_details_a));
-sessionStorage.setItem("accident_details_a",JSON.stringify(accident_details_a));
 sessionStorage.setItem("currentobj_inpro",JSON.stringify(super_inpro_obj));
 $.mobile.changePage($('#pagedesign'), { transition: "none", changeHash: true, reverse: false });
 return false;
-}
+
 }
 }
 
